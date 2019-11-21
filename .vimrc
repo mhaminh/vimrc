@@ -40,7 +40,7 @@ call plug#end()
 " Themes
 set termguicolors     " enable true colors support
 set background=dark
-colorscheme carbonized-dark
+silent! colorscheme carbonized-dark
 
 " Lightline
 set laststatus=2
