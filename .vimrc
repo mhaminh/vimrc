@@ -14,7 +14,7 @@ Plug 'jdsimcoe/abstract.vim'
 Plug 'nightsense/carbonized'
 
 
-Plug 'valloric/youcompleteme'
+Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 ./install.py' }
 "Plug 'scrooloose/syntastic'
 Plug 'w0rp/ale'
 Plug 'maverickg/stan.vim'
